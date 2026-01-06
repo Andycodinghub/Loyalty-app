@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Loyalty Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="manifest.json">
+  <style>
+    body { font-family: Arial; max-width: 600px; margin: auto; padding: 10px; }
+    input, button { padding: 10px; margin: 5px 0; width: 100%; }
+    .card { border: 1px solid #ccc; padding: 10px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+
+<h2>Customer Loyalty Tracker</h2>
+
+<input id="name" placeholder="Customer Name">
+<input id="phone" placeholder="Phone">
+<input id="email" placeholder="Email">
+<button onclick="addCustomer()">Add Customer</button>
+
+<button onclick="exportCSV()">Export CSV</button>
+
+<div id="list"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
