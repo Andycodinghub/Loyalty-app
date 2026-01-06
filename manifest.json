@@ -1,0 +1,8 @@
+{
+  "name": "Customer Loyalty Tracker",
+  "short_name": "Loyalty",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}
